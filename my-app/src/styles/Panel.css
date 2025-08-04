@@ -1,0 +1,146 @@
+.panel-root {
+  display: flex;
+  min-height: 100vh;
+  width: 100vw;
+  background: #f8f9fa;
+}
+
+.sidebar {
+  width: 240px;
+  min-width: 240px;
+  background: #fff;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.04);
+  position: fixed;           /* ADD THIS */
+  top: 0;                    /* ADD THIS */
+  left: 0;                   /* ADD THIS */
+  height: 100vh;             /* ADD THIS */
+  z-index: 1000;             /* ADD THIS */
+}
+.panel-content-area {
+  flex: 1;
+  /* padding: 24px 0; */
+  /* min-width: 0; */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background: linear-gradient(70deg, #ffe0e0 10%, #d4eaff 100%);
+  margin-left: 240px;        /* ADD THIS so content shifts to right */
+}
+
+
+
+
+
+
+
+
+.panel-bg {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.panel-content {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+.panel-content h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 26px;
+  color: #333;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.input-group label {
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #444;
+}
+
+.input-group input {
+  padding: 10px 14px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.2s ease;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+button[type="submit"],
+button[type="button"] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+  display: block;
+  width: 100%;
+  margin-top: 12px;
+}
+
+button[type="submit"]:hover,
+button[type="button"]:hover {
+  background-color: #0056b3;
+}
+
+img {
+  display: block;
+  margin: 0 auto 16px;
+  border: 2px solid #ddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

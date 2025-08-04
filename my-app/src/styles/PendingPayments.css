@@ -1,0 +1,80 @@
+.pending-payments-container {
+  padding: 0px 40px 0 40px;
+  /* padding: 20px; */
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  width: 95%;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+  /* padding-left: 40px; */
+}
+.summary-section {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px 40px;
+  margin-bottom: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  width: 90%;
+}
+
+.summary-section h3 {
+  grid-column: 1 / -1;
+  color: #555;
+font-weight: 800;
+  
+  margin-bottom: 1px;
+}
+
+.summary-section p {
+  margin: -1px 0;
+  font-size: 1.1em;
+}
+.detailheading{
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.payouts-list{
+  overflow-y: scroll;
+  height: 50vh;
+}
+
+.payouts-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+  
+  
+}
+
+.payouts-list th,
+.payouts-list td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+
+
+
+.payouts-list tr:hover {
+  background-color: #f1f1f1;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}
+
+.loading-message {
+  color: #555;
+  font-style: italic;
+}
